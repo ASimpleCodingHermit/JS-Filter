@@ -69,7 +69,6 @@ img {
 .filter__collections__main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  grid-template-rows: 525px;
   grid-gap: 1rem;
 }
 

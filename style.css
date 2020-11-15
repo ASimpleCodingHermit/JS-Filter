@@ -136,6 +136,11 @@ time {
   background-color: #61dafb;
   color: #fff;
 }
+
+.active {
+  background-color: #61dafb;
+  color: black;
+}
 /* Filter Colors */
 .frontend .filter__name {
   background: #f06529;

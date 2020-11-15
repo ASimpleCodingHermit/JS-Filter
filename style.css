@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  width: 90vw;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.container > h2 {
+  text-align: center;
+  font-size: 32px;
+  padding: 10px 0;
+}
+
+.container > p {
+  font-weight: bold;
+  opacity: 0.7;
+  text-align: center;
+}
+
+.filter__head {
+  margin: 30px 0;
+}
+
+.filter__head ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.filter__title {
+  flex: 0 0 calc(16.6667% - 10px);
+  display: flex;
+  justify-content: center;
+  background: #a8a8a8;
+  padding: 12px;
+  color: #fff;
+  margin: 5px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+}
+
+.filter__title:hover {
+  opacity: 0.7;
+}
+
+.filter__title li {
+  padding: 0 10px;
+}
+
+.filter__title > i {
+  margin: 0 2px;
+}
+
+/* Single Post */
+.filter__collections__main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-rows: 525px;
+  grid-gap: 1rem;
+}
+
+.filter__collections__main > div {
+  box-shadow: 0px 8px 22px -12px rgba(0, 0, 0, 0.64);
+}
+
+.filter__image {
+  position: relative;
+}
+
+.filter__name {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+}
+
+.filter__post__content {
+  padding: 25px;
+}
+
+.filter__post__content--top {
+  background-color: #61dafb;
+  color: #fff;
+  opacity: 0.8;
+  padding: 5px 0 5px 15px;
+}
+
+.filter__post__content--top > i,
+time {
+  padding-right: 10px;
+}
+
+.filter__post__content > h2 {
+  font-size: 22px;
+  padding: 12px 0;
+  font-weight: 600;
+}
+
+.filter__post__content p {
+  opacity: 0.7;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.read-button {
+  display: inline-block;
+  border: none;
+  outline: none;
+  padding: 8px 10px;
+  margin: 5px auto;
+}
+
+.read-button:hover {
+  background-color: #61dafb;
+  color: #fff;
+}
+/* Filter Colors */
+.frontend .filter__name {
+  background: #f06529;
+}
+.reactjs .filter__name {
+  background: #61dafb;
+}
+.adobexd .filter__name {
+  background: #ff61f6;
+}
+.nodejs .filter__name {
+  background: #77b65d;
+}
+.bulma .filter__name {
+  background: #00d1b2;
+}
